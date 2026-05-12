@@ -1,0 +1,6 @@
+.DS_Store
+.playwright-mcp/
+Screenshot*.png
+verify-*.png
+verify-*.jpg
+*.log

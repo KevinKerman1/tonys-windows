@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" aria-label="The Bald guy and the Curly guy — Bald and Curly Glass mascots">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2A56A"/>
+      <stop offset="0.55" stop-color="#E89160"/>
+      <stop offset="1" stop-color="#C97A4A"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A85A2B"/>
+      <stop offset="1" stop-color="#7A3F1B"/>
+    </linearGradient>
+    <clipPath id="windowClip">
+      <rect x="80" y="60" width="440" height="260" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <!-- card background -->
+  <rect x="0" y="0" width="600" height="460" rx="24" fill="#FBF6EE"/>
+
+  <!-- window frame outer -->
+  <rect x="68" y="48" width="464" height="284" rx="10" fill="#2A4F44"/>
+  <rect x="80" y="60" width="440" height="260" rx="6" fill="url(#sky)"/>
+
+  <!-- desert horizon inside window -->
+  <g clip-path="url(#windowClip)">
+    <!-- sun -->
+    <circle cx="380" cy="170" r="46" fill="#FBE1B8" opacity="0.85"/>
+    <circle cx="380" cy="170" r="30" fill="#FBF1D0"/>
+    <!-- mountains -->
+    <path d="M80 250 L160 195 L210 230 L280 175 L355 235 L420 200 L520 245 L520 320 L80 320 Z" fill="#8B4A22" opacity="0.75"/>
+    <path d="M80 280 L140 245 L210 275 L300 235 L380 280 L450 250 L520 285 L520 320 L80 320 Z" fill="#6B3818"/>
+    <!-- saguaro silhouette -->
+    <g fill="#3B6B5C">
+      <rect x="120" y="225" width="10" height="80" rx="4"/>
+      <rect x="108" y="240" width="8" height="32" rx="3"/>
+      <rect x="134" y="248" width="8" height="28" rx="3"/>
+    </g>
+  </g>
+
+  <!-- window mullions (cross) -->
+  <rect x="294" y="60" width="12" height="260" fill="#2A4F44"/>
+  <rect x="80" y="184" width="440" height="12" fill="#2A4F44"/>
+  <!-- window inner edge highlight -->
+  <rect x="80" y="60" width="440" height="260" rx="6" fill="none" stroke="#F5EBDD" stroke-width="2" opacity="0.5"/>
+
+  <!-- window sill -->
+  <rect x="56" y="328" width="488" height="14" rx="4" fill="#1F2937"/>
+
+  <!-- ============= LEFT character: BALD guy ============= -->
+  <g transform="translate(120, 200)">
+    <!-- shirt -->
+    <path d="M-50 180 Q-50 110 0 110 Q50 110 50 180 L50 260 L-50 260 Z" fill="#D2691E"/>
+    <!-- collar -->
+    <path d="M-18 110 L0 130 L18 110 L18 122 L0 142 L-18 122 Z" fill="#2A4F44"/>
+    <!-- neck -->
+    <rect x="-12" y="92" width="24" height="22" fill="#C18A5A"/>
+    <!-- head -->
+    <ellipse cx="0" cy="60" rx="48" ry="54" fill="#D4A574"/>
+    <!-- bald shine -->
+    <ellipse cx="-12" cy="30" rx="14" ry="6" fill="#E2BB8C" opacity="0.7"/>
+    <!-- ears -->
+    <ellipse cx="-46" cy="62" rx="6" ry="10" fill="#C18A5A"/>
+    <ellipse cx="46" cy="62" rx="6" ry="10" fill="#C18A5A"/>
+    <!-- beard -->
+    <path d="M-38 70 Q-38 108 0 116 Q38 108 38 70 Q38 96 22 102 Q12 106 0 106 Q-12 106 -22 102 Q-38 96 -38 70 Z" fill="#3A2820"/>
+    <path d="M-32 74 Q-30 108 0 114 Q30 108 32 74 Q26 96 0 100 Q-26 96 -32 74 Z" fill="#2B1C12"/>
+    <!-- mustache -->
+    <path d="M-22 68 Q-12 76 0 74 Q12 76 22 68 Q14 80 0 80 Q-14 80 -22 68 Z" fill="#2B1C12"/>
+    <!-- eyebrows -->
+    <rect x="-26" y="44" width="14" height="3.5" rx="2" fill="#2B1C12"/>
+    <rect x="12" y="44" width="14" height="3.5" rx="2" fill="#2B1C12"/>
+    <!-- eyes -->
+    <circle cx="-18" cy="56" r="3" fill="#1F2937"/>
+    <circle cx="18" cy="56" r="3" fill="#1F2937"/>
+    <circle cx="-17" cy="55" r="1" fill="#FFF"/>
+    <circle cx="19" cy="55" r="1" fill="#FFF"/>
+    <!-- nose -->
+    <path d="M0 58 Q-4 70 -2 76 Q0 78 2 76 Q4 70 0 58" fill="#C18A5A"/>
+    <!-- smile (subtle, partly hidden by beard) -->
+    <path d="M-8 90 Q0 94 8 90" stroke="#2B1C12" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- ============= RIGHT character: CURLY guy ============= -->
+  <g transform="translate(480, 200)">
+    <!-- shirt -->
+    <path d="M-50 180 Q-50 110 0 110 Q50 110 50 180 L50 260 L-50 260 Z" fill="#D2691E"/>
+    <!-- collar -->
+    <path d="M-18 110 L0 130 L18 110 L18 122 L0 142 L-18 122 Z" fill="#2A4F44"/>
+    <!-- neck -->
+    <rect x="-12" y="92" width="24" height="22" fill="#B07A4A"/>
+    <!-- head -->
+    <ellipse cx="0" cy="62" rx="46" ry="52" fill="#C68C58"/>
+    <!-- ears -->
+    <ellipse cx="-44" cy="64" rx="6" ry="10" fill="#B07A4A"/>
+    <ellipse cx="44" cy="64" rx="6" ry="10" fill="#B07A4A"/>
+    <!-- curly hair (lots of circles) -->
+    <g fill="#3A2820">
+      <circle cx="-32" cy="18" r="14"/>
+      <circle cx="-14" cy="8" r="15"/>
+      <circle cx="6" cy="6" r="16"/>
+      <circle cx="26" cy="10" r="15"/>
+      <circle cx="40" cy="22" r="13"/>
+      <circle cx="-40" cy="32" r="13"/>
+      <circle cx="44" cy="38" r="12"/>
+      <circle cx="-22" cy="-2" r="12"/>
+      <circle cx="16" cy="-4" r="13"/>
+      <circle cx="-4" cy="-6" r="11"/>
+    </g>
+    <!-- curly highlights -->
+    <g fill="#5A3D2A" opacity="0.7">
+      <circle cx="-30" cy="14" r="6"/>
+      <circle cx="2" cy="2" r="7"/>
+      <circle cx="28" cy="8" r="6"/>
+    </g>
+    <!-- eyebrows -->
+    <rect x="-26" y="48" width="14" height="3.5" rx="2" fill="#2B1C12"/>
+    <rect x="12" y="48" width="14" height="3.5" rx="2" fill="#2B1C12"/>
+    <!-- eyes -->
+    <circle cx="-18" cy="60" r="3" fill="#1F2937"/>
+    <circle cx="18" cy="60" r="3" fill="#1F2937"/>
+    <circle cx="-17" cy="59" r="1" fill="#FFF"/>
+    <circle cx="19" cy="59" r="1" fill="#FFF"/>
+    <!-- nose -->
+    <path d="M0 64 Q-4 76 -2 82 Q0 84 2 82 Q4 76 0 64" fill="#A86E40"/>
+    <!-- smile -->
+    <path d="M-12 92 Q0 102 12 92" stroke="#2B1C12" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- subtle stubble -->
+    <ellipse cx="0" cy="88" rx="20" ry="6" fill="#3A2820" opacity="0.18"/>
+  </g>
+
+  <!-- name plate -->
+  <rect x="180" y="380" width="240" height="50" rx="25" fill="#1F2937"/>
+  <text x="300" y="411" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="20" font-weight="700" fill="#F5EBDD" letter-spacing="0.5">Bald &amp; Curly Glass</text>
+</svg>

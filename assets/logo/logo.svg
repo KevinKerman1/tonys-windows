@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" aria-label="Bald and Curly Glass logo mark">
+  <defs>
+    <linearGradient id="lg-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2A56A"/>
+      <stop offset="1" stop-color="#D2691E"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="68" height="68" rx="14" fill="#3B6B5C"/>
+  <rect x="14" y="14" width="44" height="44" rx="3" fill="url(#lg-sky)"/>
+  <rect x="33" y="14" width="6" height="44" fill="#3B6B5C"/>
+  <rect x="14" y="33" width="44" height="6" fill="#3B6B5C"/>
+  <rect x="14" y="14" width="44" height="44" rx="3" fill="none" stroke="#F5EBDD" stroke-width="2"/>
+  <circle cx="50" cy="22" r="2.5" fill="#FBF6EE" opacity="0.85"/>
+</svg>

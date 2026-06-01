@@ -2,11 +2,11 @@
    Bald & Curly Glass — design system
    ============================================================ */
 :root {
-  --color-orange: #D2691E;
-  --color-orange-dark: #B0531A;
-  --color-orange-soft: #F2A56A;
-  --color-green: #3B6B5C;
-  --color-green-dark: #2A4F44;
+  --color-orange: #E23B2E;
+  --color-orange-dark: #C12C20;
+  --color-orange-soft: #F58A7F;
+  --color-green: #34A853;
+  --color-green-dark: #218739;
   --color-cream: #F5EBDD;
   --color-cream-soft: #FBF6EE;
   --color-charcoal: #1F2937;
@@ -64,7 +64,7 @@ p { margin: 0 0 1em; }
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--color-orange);
+  color: var(--color-green);
   margin-bottom: 0.6em;
 }
 
@@ -78,7 +78,7 @@ p { margin: 0 0 1em; }
 .section { padding: clamp(60px, 8vw, 110px) 0; }
 .section--dark { background: var(--color-charcoal); color: var(--color-white); }
 .section--dark h1, .section--dark h2, .section--dark h3 { color: var(--color-white); }
-.section--dark .eyebrow { color: var(--color-orange-soft); }
+.section--dark .eyebrow { color: var(--color-green); }
 .section--cream { background: var(--color-cream); }
 .center { text-align: center; }
 .section-head { max-width: 720px; margin: 0 auto 56px; text-align: center; }
@@ -147,6 +147,7 @@ p { margin: 0 0 1em; }
   color: var(--color-charcoal);
 }
 .nav__logo svg { width: 36px; height: 36px; }
+.nav__logo img { height: 44px; width: auto; border-radius: 8px; }
 .nav__links {
   display: flex;
   align-items: center;
@@ -161,7 +162,7 @@ p { margin: 0 0 1em; }
   color: var(--color-charcoal-soft);
   transition: color .15s ease;
 }
-.nav__links a:hover, .nav__links a.is-active { color: var(--color-orange); }
+.nav__links a:hover, .nav__links a.is-active { color: var(--color-green); }
 .nav__cta { display: flex; align-items: center; gap: 14px; }
 .nav__phone {
   font-weight: 700;
@@ -170,7 +171,7 @@ p { margin: 0 0 1em; }
   align-items: center;
   gap: 6px;
 }
-.nav__phone:hover { color: var(--color-orange); }
+.nav__phone:hover { color: var(--color-green); }
 .nav__toggle {
   display: none;
   width: 44px;
@@ -650,6 +651,7 @@ p { margin: 0 0 1em; }
   margin-bottom: 16px;
 }
 .footer__logo svg { width: 36px; height: 36px; }
+.footer__logo img { height: 44px; width: auto; border-radius: 8px; }
 .footer h4 {
   color: var(--color-white);
   font-family: var(--font-sans);
